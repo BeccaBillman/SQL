@@ -1,0 +1,25 @@
+CREATE TABLE shoes (id INTEGER PRIMARY KEY,name TEXT, price INTEGER);
+INSERT INTO shoes VALUES(1, "Rainbow Flipflops", 80);
+INSERT INTO shoes VALUES(2, "Jimmy Choo Pumps", 850);
+INSERT INTO shoes VALUES(3, "Nike Metcons", 300);
+INSERT INTO shoes VALUES(4, "Rebooks Cross country", 160);
+INSERT INTO shoes VALUES(5, "Nike Running 2.0", 120);
+INSERT INTO shoes VALUES(6, "Arait Brown Cowboy Boots, Round Toe", 150);
+INSERT INTO shoes VALUES(7, "Arait NFR White", 550);
+INSERT INTO shoes VALUES(8,"Arait Black Boot, Square Toe", 150);
+INSERT INTO shoes VALUES(9, "Arait Brown Boot, Square Toe", 150);
+INSERT INTO shoes VALUES(10, "Arait Black Cowboy Boots, Round Toe", 150); 
+INSERT INTO shoes VALUES(11, "Firebirds, White", 220); 
+INSERT INTO shoes VALUES(12, "Firebrids, Brown", 220); 
+INSERT INTO shoes VALUES(13, "Firebirds, Nashville", 220);
+INSERT INTO shoes VALUES(14, "Firebirds, Houston", 220); 
+INSERT INTO shoes VALUES(15, "Arait NFR", 500);
+
+
+SELECT * FROM shoes; 
+
+SELECT * FROM shoes WHERE name > 80 ORDER BY price;
+
+
+
+
